@@ -3,8 +3,8 @@
 class Conexao {
     const HOST      = "localhost";
     const NOMEBANCO = "3info2";
-    const USUARIO   = "3info2";
-    const SENHA     = "3info2";
+    const USUARIO   = "root";
+    const SENHA     = "root";
 
     //!!!Substitua daqui para baixo
     public static $conexao = null;

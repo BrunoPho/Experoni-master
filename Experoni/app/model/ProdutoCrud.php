@@ -1,10 +1,4 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: aluno
- * Date: 28/02/18
- * Time: 14:10
- */
 
 require_once "Conexao.php";
 require_once "Produto.php";
@@ -42,9 +36,6 @@ class ProdutoCrud
             $listaProdutos[] = $prod;
         }
 
-
-
-
         return $listaProdutos;
     }
 
@@ -68,3 +59,8 @@ class ProdutoCrud
         return $prod;
     }
 }
+
+$prod = new ProdutoCrud();
+print_r($prod->getProdutos());
+
+echo "\n --- \n";

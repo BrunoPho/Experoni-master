@@ -10,13 +10,6 @@ include "Conexao.php";
 include "CategoriaCrud.php";
 include "ProdutoCrud.php";
 
-
-$con = new Conexao();
-
-$conexao = $con->getConexao();
-
-$cat = new CategoriaCrud();
-
 $prod = new ProdutoCrud();
 
 print_r($cat->getCategorias());
