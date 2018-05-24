@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
-<head></head>
+<head>
+    <link>
+</head>
 <body>
 
  <h1> Detalhes da categoria - <?= $categoria->getNome()?> </h1>

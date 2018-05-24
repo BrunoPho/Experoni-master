@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
+	<title> index </title>
 </head>
 <body>
 
 	<h2> Listagem de Categorias </h2>
 
       <table>
+       <tr>
       	<th>       #           </th>
       	<th> Nome da Categoria </th>
+       </tr>
       </table>
      <tbody>
-  
+
   <?php foreach ($Categorias as $Categoria) : ?>
   	
    <tr>
